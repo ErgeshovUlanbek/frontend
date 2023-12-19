@@ -7,7 +7,7 @@ interface IGreeting {
 export default function Greeting(props: IGreeting) {
   return (
     <div>
-      <h3>Hi {props.name}</h3>
+      <h3>Hello {props.name}</h3>
     </div>
   )
 }
